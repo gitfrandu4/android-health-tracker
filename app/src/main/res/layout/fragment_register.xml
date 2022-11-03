@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".views.RegisterFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/registerLogo"
+            layout="@layout/app_logo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/registerNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerLogo"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="name"
+            android:background="@drawable/rounded_edit_text"
+            android:drawableEnd="@drawable/ic_baseline_person_24"
+            android:hint="@string/input_name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/blackButNotSoBlack"
+            />
+
+        <EditText
+            android:id="@+id/registerPhoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerNameInput"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="phone"
+            android:background="@drawable/rounded_edit_text"
+            android:drawableEnd="@drawable/ic_baseline_phone_android_24"
+            android:hint="@string/input_phone"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/blackButNotSoBlack" />
+
+        <EditText
+            android:id="@+id/registerEmailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerPhoneInput"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="email"
+            android:background="@drawable/rounded_edit_text"
+            android:drawableEnd="@drawable/ic_baseline_email_24"
+            android:hint="@string/input_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/blackButNotSoBlack" />
+
+        <EditText
+            android:id="@+id/registerPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerEmailInput"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="password"
+            android:background="@drawable/rounded_edit_text"
+            android:drawableEnd="@drawable/ic_baseline_lock_24"
+            android:hint="@string/input_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/blackButNotSoBlack" />
+
+        <EditText
+            android:id="@+id/registerConfirmPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerPasswordInput"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="password"
+            android:background="@drawable/rounded_edit_text"
+            android:drawableEnd="@drawable/ic_baseline_lock_24"
+            android:hint="@string/input_confirm_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/blackButNotSoBlack" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerConfirmPasswordInput"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/rounded_button"
+            android:padding="10dp"
+            android:text="@string/register"
+            android:textColor="@color/black"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            />
+
+    </RelativeLayout>
+</ScrollView>

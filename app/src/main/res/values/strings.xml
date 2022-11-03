@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Android-Health-Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="input_email">Correo electrónico</string>
+    <string name="input_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_register"><u>Crear una cuenta nueva</u></string>
+    <string name="health_tracker_logo">health tracker logo</string>
+    <string name="register">Registrarte</string>
+    <string name="input_confirm_password">Confirmar contraseña</string>
+    <string name="input_name">Nombre</string>
+    <string name="input_phone">Número de teléfono</string>
+    <string name="actions">Acciones</string>
+    <string name="profile">Perfil</string>
+    <string name="user_name">Nombre del usuario</string>
+    <string name="close_session">Cerrar sesión</string>
+    <string name="login_failed">Login failed</string>
+    <string name="water">Agua</string>
+    <string name="glass">Vaso</string>
+    <string name="my_records">Mis registros</string>
+    <string name="water_icon">water icon</string>
+    <string name="one_liter">1l</string>
+    <string name="bottle">Botella</string>
+    <string name="cero">0</string>
+    <string name="one_l">1.0L</string>
+    <string name="bottle_icon">bottle icon</string>
+    <string name="guardar">Guardar</string>
+    <string name="glass_icon">glass icon</string>
+    <string name="_250ml">250ml</string>
+    <string name="_0">0</string>
+    <string name="register_icon">register icon</string>
+    <string name="category">Categoria</string>
+    <string name="date">Fecha</string>
+    <string name="amount">Cantidad</string>
+</resources>
